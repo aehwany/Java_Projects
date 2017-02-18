@@ -1,6 +1,7 @@
 
-// STUDENT_NAME:
-// STUDENT_ID:
+// Created by: Ahmed Elehwany
+// this code is a quick solver for scrabble game. Basically you enter the set of letters you have and the code generates the longest word present in dictionary file.txt that is made up of these letters or some of them.
+// You can initialize an existing string as argument to the method and then the method adds letters to this string to form a longer valid word.
 
 import java.util.*;
 import java.io.*;
@@ -11,7 +12,6 @@ public class Scrabble{
 
     static HashSet<String> myDictionary; // this is where the words of the dictionary are stored
 
-    // DO NOT CHANGE THIS METHOD
     // Reads dictionary from file
     public static void readDictionaryFromFile(String fileName) throws Exception {
         myDictionary=new HashSet<String>();
