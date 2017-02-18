@@ -1,5 +1,6 @@
 // this graphics calculator uses the acm graphics package. It handles unary and binary operators. It supports addition, subtraction, multiplication and division.
 //It also supports the use of brackets and offers control over the output precision.
+//this code uses the other 3 classes Node, Queue and stack.
  
 
 
